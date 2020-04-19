@@ -1,0 +1,104 @@
+<style>
+   
+}
+
+.pn-news-bg {
+  position: relative;
+}
+
+.pn-newsletter-text {
+  margin: 70px 0;
+  padding: 3x;
+  
+}
+
+.pn-news-text> h2 {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.pn-news-text p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.pn-newsletter-text .section-headline p {
+  margin-bottom: 0;
+}
+
+.subs-feilds {
+  border: 1px solid #fff;
+  display: inline-block;
+  height: 52px;
+  margin-top: 30px;
+  width: 60%;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.subscribe-input input {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  float: left;
+  font-size: 15px;
+  line-height: 2px;
+  padding: 11px 15px;
+  width: 80%;
+  height: 50px;
+}
+
+.subscribe-input button {
+  background: #3ec1d5 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0 20px 20px 0;
+  color: #fff;
+  float: left;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  width: 20%;
+}
+
+.subscribe-input button:hover {
+  background: #fff none repeat scroll 0 0;
+  color: #3ec1d5;
+}
+
+
+.test-overly {
+  background: #6EC1E4;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+</style>
+<div class="pn-newsletter-area">
+  <div class="pn-news-bg">
+    <div class="test-overly"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="pn-newsletter-text">
+            <div class="pn-news-text text-center">
+              
+              
+              <div class="subs-feilds">
+                
+                <div class="subscribe-input">
+                  
+                  <input type="email" class="email form-control width-80" id="sus_email" placeholder="Email">
+                  <button type="submit" id="sus_submit" class="add-btn width-20">Subscribe</button>
+                  <div id="msg_Submit" class="h3 text-center hidden"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Newsletter Area -->
